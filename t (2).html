@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    
+  </head>
+  <body>
+        <nav class="navbar">
+      <div class=" bg-success w-100">
+        <div class="row " style="height: 80px">
+          <div
+            class="col-md-8"
+            style="padding-left: 20px; color: white; padding-top: 20px"
+          >
+            Call:+8867707011|Email:customersupport@divinityorganics.com
+          </div>
+          
+          <div class="col-md-4" style="margin-top: 20px">
+            <input type="text" placeholder="search product" /><i
+              class="bi bi-search"
+            ></i>
+          </div>
+        </div>
+      </div>
+         
+      
+      <!-- links -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" width="100px" height="30" />
+        </a>
+        <ul class="list-inline">
+        <li class="list-inline-item m-2">
+            <a href="#" style="color: green">Home</a>
+          </li>
+          <li class="dropdown list-inline-item m-2">
+            <a
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              style="color: green"
+              >Shop<span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" style="color: green">Products</a></li>
+              <li><a href="#" style="color: green">Products</a></li>
+              <li><a href="#" style="color: green">Products</a></li>
+            </ul>
+          </li>
+          <li class="list-inline-item m-2">
+            <a href="#" style="color: green">Offers&combos</a>
+          </li>
+          <li class="list-inline-item m-2">
+            <a href="#" style="color: green">About Us</a>
+          </li>
+          <li class="list-inline-item m-2">
+            <a href="#" style="color: green">Blog</a>
+          </li>
+          <li class="list-inline-item m-2">
+            <a href="#" style="color: green">About Us</a>
+          </li>
+          <li class="list-inline-item m-2">
+            <a href="#" style="color: green">Contact Us</a>
+          </li>
+          <li class="list-inline-item m-11">
+            <a href="#" style="color: green"><i class="bi bi-person-fill"></i>Login</a>
+          </li>
+          <li class="list-inline-item m-3">
+            <a href="#" style="color: green"><i class="bi bi-heart-fill"></i>Wishlist</a>
+          </li>
+          <li class="list-inline-item m-3">
+            <a href="#" style="color: green"><i class="bi bi-cart-plus-fill"></i>items(1)</a>
+          </li>
+        </ul>
+
+            
+              <img class="d-block w-100" src="header.png" alt="First slide" />
+            </div>
+           
+          </div>
+        
+        </div>
+      </div>
+    </nav>
+    <!-- section-2 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"  style="border: 1px solid black;">
+          <div>
+             <img src="honey.png" class="img-fluid" />
+            <!-- <div class="card-body">
+              <p class="card-title">100% RawHoney</p>
+              <h5 class="card-text">Direct from local beekeepers</h5>
+              <a href="#" class="btn btn-inverse btn-warning">Shop Now</a>
+            </div> -->
+           </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6  " style="border: 1px solid black;">
+               <div>
+                <img src="oil.png" class="img-fluid" />
+              </div> 
+              <!-- <div class="card-body">
+                <p class="card-title">Nutrient Rich<br>Unrefined Oil</p>
+                <h5 class="card-text">Its Natural<br>Its Good Oil</h5>
+                <a href="#" class="btn btn-inverse btn-warning">Shop Now</a>
+              </div> -->
+              
+            </div>
+            <div class="col-md-6" style="border: 1px solid black;">
+              <img src=""
+              <!-- <div class="card-body">
+                <p class="card-title">Premium <br>quality<br> dryfruits<br></p>
+                <h5 class="card-text">In Range</h5>
+                <a href="#" class="btn btn-inverse btn-warning">Shop Now</a>
+              </div> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" style="border: 1px solid black;">
+              <img src="protiens.png">
+              <!-- <div class="card-body">
+                <p class="card-title">Sourced from Best quality resources<br></p>
+                <h5 class="card-text">Good source of protiens.<br> hygenically packed.</h5>
+                <a href="#" class="btn btn-inverse btn-warning">Shop Now</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <span class="border-2 bg-success align-center">hi</span>
+     -->
+    <p class="text-center" style="border-radius: 10px;">
+      <span class="bg-success " style="border: 10px;font-weight: bold;">Explore All Categories</span>
+      
+    </p>
+    <!-- section our product range -->
+    <p class="text-center text-success" style="font-weight: bold;">Our Product Range</p>
+    <!-- Card -->
+    <div class="text-center">
+      <a href="#" class="text-success" onclick="changeLook()">Featured</a>
+      <a href="#" class="text-success" onclick="changeBack()">Latest</a>
+    </div>
+    <br>
+
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-xl-3 col-lg-3">
+          <div class="card" style="width: 18rem">
+            
+
+            <img src="1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Wood Pressed Oil</h5>
+              <p class="card-text">wood pressed groundnut oil</p>
+              <a href="#" class="btn btn-inverse btn-warning">Add to cart</a>
+              <a href="#" class="btn btn-secondary">- 1 + </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Deshi Ghee</h5>
+              <p class="card-text">A-2 cow ghee -Badri</p>
+              <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+              <a href="#" class="btn btn-secondary">- 1 + </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Floral Honey</h5>
+              <p class="card-text">Rainforest Spice Honey</p>
+              <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+              <a href="#" class="btn btn-secondary">- 1 + </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3">
+          <div class="card" style="width: 18rem">
+            <img src="2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">spices</h5>
+              <p class="card-text">cloves</p>
+              <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+              <a href="#" class="btn btn-secondary">- 1 + </a>
+            </div>
+          </div>
+        </div>
+    
+<!-- About -->
+<div class="container bg-success">
+  <p class="text-center" style="padding-top: 20px;color:white; font-weight: bold;">About Divinity Organics</p>
+  <p class="text-center" style="color: white;">At Divinity, we believe in using ancient wisdom to develop wellness products for
+     modern times for the mind, body and soul; enabling nature through eco-conscious, ethical and 
+     sustainable practices.<br>Changes in thoughts and actions are a must to lead a healthy lifestyle working with this idea was our passion.Which evolved tp become our vision.We can build the immunity our body deserves by setting a traditiona of good food in a symbiotic relationship with nature</p>
+</div>
+<br>
+<br>
+<!-- About Shipping -->
+<div class="container bg-secondary w-80" style=" margin-top: 20px;width: 80%;">
+<p class="text-center" style="padding-top: 20px;" >
+  <span style="color: aliceblue; padding-top: 10px;font-weight: bold;">Free Shipping on order above 1500</span>
+  
+</p>
+</div>
+<!-- top selling -->
+<p class="text-center" style="padding-top: 20px; font-weight: bold;">Top Selling</p>
+<br>
+<br>
+
+<div class="container-fluid">
+  <div class="row justify-content-end">
+    <div class="col-xl-3 col-lg-3">
+      <div class="card" style="width: 18rem">
+        
+
+        <img src="1.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Wood Pressed Oil</h5>
+          <p class="card-text">wood pressed groundnut oil</p>
+          <a href="#" class="btn btn-inverse btn-warning">Add to cart</a>
+          <a href="#" class="btn btn-secondary">- 1 + </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-3">
+      <div class="card" style="width: 18rem">
+        <img src="2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Deshi Ghee</h5>
+          <p class="card-text">A-2 cow ghee -Badri</p>
+          <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+          <a href="#" class="btn btn-secondary">- 1 + </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-3">
+      <div class="card" style="width: 18rem">
+        <img src="3.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Floral Honey</h5>
+          <p class="card-text">Rainforest Spice Honey</p>
+          <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+          <a href="#" class="btn btn-secondary">- 1 + </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-3">
+      <div class="card" style="width: 18rem">
+        <img src="2.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">spices</h5>
+          <p class="card-text">cloves</p>
+          <a href="#" class="btn btn-inverse btn-warning">Add To Cart</a>
+          <a href="#" class="btn btn-secondary">- 1 + </a>
+        </div>
+      </div>
+    </div>
+    <!-- why divinity organics -->
+    </div>
+    <p class="text-center " style="padding-top: 20px;font-weight: bold;">Why Divinity Organics</p>
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-xl-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img src="footer1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                m… Wikipedia iconWikipedia
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img src="footer2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                m… Wikipedia iconWikipedia
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="card" style="width: 18rem">
+            <img src="footer3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                m… Wikipedia iconWikipedia
+              </p>
+            </div>
+          </div>
+        </div>
+          <!-- footer -->
+          <div class="container bg-success">
+            <p class="text-center" style="padding-top: 20px;color:white; font-weight: bold;">Footer</p>
+            <p class="text-center" style="color: white;"></p>
+            <p style="text-align: left;">contact us</p>
+            <p style="text-align: right;">contact us</p>
+
+
+            </div>
+            
+</body>
+</html>
